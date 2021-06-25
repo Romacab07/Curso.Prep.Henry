@@ -240,10 +240,10 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var nuevoarray = []
-  var nuevonumeros = numero
+  var nuevonumeros = numero;
   for (var i = 0; i < 10; i++){
     if(i !== 5){
-      nuevonumero = nuevonumeros + 2
+      nuevonumeros = nuevonumeros + 2
       nuevoarray.push(nuevonumeros);
     }
     continue;
